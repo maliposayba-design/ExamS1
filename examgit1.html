@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+</head>
+<body>
+     <fieldset>
+        <legend>information</legend>
+        <section>
+     <form>
+        <div>
+            <label for="prenom" class="titre">Prénom:</label>
+       <input type="text" name="prenom" id="prenom" />
+        </div>
+        <div>
+            <label for="nom" class="titre">Nom:</label>
+       <input type="text" name="nom" id="nom" />
+        </div>
+        <div>
+            <label for="email">Email:</label>
+       <input type="email" name="email" id="email" />
+        </div>
+        <div>
+            <label for="password">Mot de passe:</label>
+       <input type="password" name="password" id="password" />
+        </div>
+       <label for="">profession</label>
+       <select>
+        <option disabled>...selectionner...</option> 
+        <option> developpeur</option>
+        <option>médecin</option>
+        <option>Enseignant</option>
+       </select>
+       <label for="">situation</label>
+       <input type="radio" name="situation">Marié
+       <input type="radio" name="situation" checked>célibataire
+       <button type="submit">Valider</button>
+     </form>
+    </fieldset>
+    <fieldset>
+    <legend>compétences</legend>
+    <form>
+        <ul type="none">
+            <li><input type="checkbox" checked>sens des responsabilités</li>
+            <li><input type="checkbox" checked>autonomie</li>
+            <li><input type="checkbox">capacité d'adaptation</li>
+        </ul>
+         </section>
+    </form>
+</fieldset>
+</body>
+</html>
